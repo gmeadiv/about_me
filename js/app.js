@@ -1,12 +1,12 @@
 'use strict'
 
-console.log('hello world');
+// console.log('hello world');
 
 let userName = prompt('What is your name?');
   alert('Welcome ' + userName + ' to the only page on the entire internet dedicated to being about ME, George Mead!');
 
 let dogOwnerOriginal = prompt('Do I own a dog?');
-console.log(dogOwnerOriginal)
+// console.log(dogOwnerOriginal)
 let dogOwner = dogOwnerOriginal.toLowerCase();
 if (dogOwner === 'yes') {
   alert('I live in a studio apartment in Ravenna, try again');
@@ -17,11 +17,11 @@ if (dogOwner === 'yes') {
 }
 
 let goodDogOriginal = prompt('Do you think Tate R. Tot a good boy, ' + userName + '?');
-console.log(goodDogOriginal);
+// console.log(goodDogOriginal);
 let goodDog = goodDogOriginal.toLowerCase();
 if (goodDog === 'yes') {
   let tateTreatOriginal = prompt('Do you want to give Tate a treat ' + userName + '?');
-  console.log(tateTreatOriginal);
+  // console.log(tateTreatOriginal);
   let tateTreat = tateTreatOriginal.toLowerCase();
     if (tateTreat === 'yes') {
       alert('Tate R. Tot is the best and so are you ' + userName + '!');
@@ -30,7 +30,7 @@ if (goodDog === 'yes') {
       }
   } else {
     let whyNotOriginal = prompt('Are you a dog person ' + userName + '?');
-    console.log(whyNotOriginal);
+    // console.log(whyNotOriginal);
     let whyNot = whyNotOriginal.toLowerCase();
     if (whyNot === 'no') {
       alert('I feel bad for you ' + userName + ' because I got like 99 problems but hating dogs aint one');
@@ -40,7 +40,7 @@ if (goodDog === 'yes') {
   }
 
 let aliensRealOriginal = prompt('Do you think aliens from outer space are real?');
-console.log(aliensRealOriginal);
+// console.log(aliensRealOriginal);
 let aliensReal = aliensRealOriginal.toLowerCase();
 if (aliensReal === 'yes') {
   let aliensVisitOriginal = prompt('Have they visited Earth?');
