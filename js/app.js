@@ -16,7 +16,7 @@ if (dogOwner === 'yes') {
   alert('Only yes or no answers are acceptable!');
 }
 
-let goodDogOriginal = prompt('Do you think Tate R. Tot a good boy, ' + userName + '?');
+let goodDogOriginal = prompt('Do you think Tate R. Tot is a good boy, ' + userName + '?');
 // console.log(goodDogOriginal);
 let goodDog = goodDogOriginal.toLowerCase();
 if (goodDog === 'yes') {
