@@ -1,9 +1,9 @@
-# LAB - Number
+# LAB - 03
 ## About Me (George Mead)
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+The site is all about me and the things I enjoy
 
-## Author: George
+## Author: George Mead
 
 ## Links and Resources
 - submission PR

@@ -3,9 +3,10 @@
 // console.log('hello world');
 
 let userName = prompt('What is your name?');
-  alert('Welcome ' + userName + ' to the only page on the entire internet dedicated to being about ME, George Mead!');
+  alert('Welcome, ' + userName + ', to the only page on the entire internet dedicated to being about ME, George Mead!');
 
 let dogOwnerOriginal = prompt('Do I own a dog?');
+// Question 1: correct answer is NO
 // console.log(dogOwnerOriginal)
 let dogOwner = dogOwnerOriginal.toLowerCase();
 if (dogOwner === 'yes') {
@@ -17,10 +18,12 @@ if (dogOwner === 'yes') {
 }
 
 let goodDogOriginal = prompt('Do you think Tate R. Tot is a good boy, ' + userName + '?');
+// Question 2: Correct answer is Yes
 // console.log(goodDogOriginal);
 let goodDog = goodDogOriginal.toLowerCase();
 if (goodDog === 'yes') {
   let tateTreatOriginal = prompt('Do you want to give Tate a treat ' + userName + '?');
+// Question 3a: Correct answer is YES
   // console.log(tateTreatOriginal);
   let tateTreat = tateTreatOriginal.toLowerCase();
     if (tateTreat === 'yes') {
@@ -30,6 +33,7 @@ if (goodDog === 'yes') {
       }
   } else {
     let whyNotOriginal = prompt('Are you a dog person ' + userName + '?');
+// Question 3b: any answer is correct
     // console.log(whyNotOriginal);
     let whyNot = whyNotOriginal.toLowerCase();
     if (whyNot === 'no') {
@@ -40,17 +44,59 @@ if (goodDog === 'yes') {
   }
 
 let aliensRealOriginal = prompt('Do you think aliens from outer space are real?');
-// console.log(aliensRealOriginal);
+// Question 4: correct answer YES
+
 let aliensReal = aliensRealOriginal.toLowerCase();
 if (aliensReal === 'yes') {
   let aliensVisitOriginal = prompt('Have they visited Earth?');
+  // Question 5a: correct answer is NO
   console.log(aliensVisitOriginal);
   let aliensVisit = aliensVisitOriginal.toLowerCase();
   if (aliensVisit === 'yes') {
-    alert('Only an alien could be so sure about this answer ...');
+    alert('How do you know this, ' + userName + '? Did you meet one?');
     } else {
-      alert('Only an alien could be so sure about this answer ...');
+      alert('Correct. Aliens want nothing to do with us.');
     }
   } else {
-    alert('Space is like so big ' + userName + ', for sure they exist!');
+      let hidingAliensOriginal = prompt('Where are they then, ' + userName + ' Are you hiding them!?');
+      // Question 5b: any answer is correct
+      // console.log(hidingAliensOriginal);
+      let hidingAliens = hidingAliensOriginal.toLowerCase();
+        if (hidingAliens = 'yes') {
+          alert('The government knows')
+        } else {
+          alert('I literally don\'t believe you, ' + userName)
+        }
+}
+
+let timesAskedOne = 4;
+for (let i = 1; i <= timesAskedOne; i++) {
+  let howManyLicks = prompt('How many licks, ' + userName +  ', Does it take to get to the center of a Tootsie Pop?');
+// Question 6: correct answer is 3
+  if (howManyLicks == 3) {
+    alert('Winner! Winner! Chicken Dinner!');
+    break 
+  } else if (howManyLicks < 3) {
+    alert('It only takes you ' + howManyLicks + ' licks to get to the center of a tootsie pop? This isn\'t a race, ' + userName + ' try more licks next time!');
+  } else if (howManyLicks > 3) {
+    alert('This is way too many licks ' + userName + ', try again!');
+  } else {
+    alert('What did you do wrong' + userName + '? Try again with numbers this time.');
   }
+}
+
+let timesAskedTwo = 6;
+for (let i = 1; i <= timesAskedTwo; i++) {
+  let howManyRoxannes = prompt('Hey, ' + userName + ', do you remember the hit 1978 song by the Police, Roxanne? How many times does Sting sing Roxanne\'s name?');
+// Question 7: correct answer is 26
+  if (howManyRoxannes == 26) {
+    alert('Winner! Winner! Chicken Dinner!');
+    break 
+  } else if (howManyRoxannes < 26) {
+    alert('Holy moly, ' + userName + ', would Roxanne be such a fun drinking game if Sting only said her name ' + howManyRoxannes + ' times?');
+  } else if (howManyRoxannes > 26) {
+    alert('I like the confidence ' + userName + ', but there aren\'t even ' + howManyRoxannes + ' Roxannes alive! Try again.');
+  } else {
+    alert('What did you do wrong ' + userName + '? Try again with numbers this time.');
+  }
+}
