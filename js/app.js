@@ -37,12 +37,12 @@ if (goodDog === 'yes') {
   // console.log(tateTreatOriginal);
   let tateTreat = tateTreatOriginal.toLowerCase();
     if (tateTreat === 'yes') {
+      finalTally++
       alert('Tate R. Tot is the best and so are you ' + userName + '!');
     } else {
         alert('Tate gets all ' + userName + 's treats then!');
       }
   } else {
-    finalTally++
     let whyNotOriginal = prompt('Are you a dog person ' + userName + '?');
 // Question 2b: any answer is correct
     // console.log(whyNotOriginal);
