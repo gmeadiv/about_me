@@ -39,7 +39,6 @@ function goodDogF(){
     // console.log(tateTreatOriginal);
     let tateTreat = tateTreatOriginal.toLowerCase();
       if (tateTreat === 'yes') {
-        finalTally++
         alert('Tate R. Tot is the best and so are you ' + userName + '!');
       } else {
           alert('Tate gets all ' + userName + 's treats then!');
