@@ -152,7 +152,7 @@ howManyRoxannesF();
 
 // let finalTally = scoreOne + scoreTwo + scoreThree + scoreFour + scoreFive
 if (finalTally >= 4) {
-  alert('Congratulations ' + userName + '! You really get me! You got ' + finalTally + " out of 5 scored questions!")
+  alert('Congratulations ' + userName + '! You really get me! You got ' + finalTally + ' out of 5 scored questions!')
 } else if (finalTally < 4) {
     alert('Ooooh, this is embarassing, ' + userName + '. You only got ' + finalTally + ' out of 5 possible questions.')
 }
