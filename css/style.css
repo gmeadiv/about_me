@@ -1,6 +1,83 @@
+head {
+}
+
+body {
+  background-color: darkgray
+}
+
+/* within header is h1 */
+div.header {
+  height: 50px;
+  width: 500px;
+}
+
 header {
-  width: ;
-  height: ;
-  float: ;
-  background-color: ;
+  border: 10px solid skyblue;
+  border-radius: 10px; 
+}
+
+main {
+}
+
+/* within section1 is h2, p(bio), img */
+div.secOne {
+}
+
+section:nth-child(1) {
+}
+
+img.tater {
+  height: 300px;
+  width: 225px; 
+  float: left;
+  border: 10px solid skyblue;
+  border-radius: 10px; 
+}
+
+/* within section2 is h3, ol */
+div.secTwo {
+  height: 350px;
+  width: 550px;
+}
+
+section:nth-child(2) {
+}
+
+h3.topTenFolkSongs{
+  border: 10px solid skyblue;
+  border-bottom: gray;
+  border-radius: 10px; 
+}
+
+ol.topTenFolkSongs {
+  border: 10px solid skyblue; 
+  border-top: gray;
+  border-radius: 10px; 
+  padding: 10px;
+}
+
+/* within section3 is h3, ul  */
+div.secThree {
+  height: 150px;
+  width: 550px;
+}
+
+section:nth-child(3) {
+}
+
+h3.education {
+  border: 10px solid skyblue;
+  border-bottom: gray;
+  border-radius: 10px; 
+}
+
+ul.education {
+  list-style-type: square;
+  border: 10px solid skyblue;
+  border-top: gray;
+  border-radius: 10px; 
+}
+
+/* within footer is "created by George Mead" */
+footer {
 }
